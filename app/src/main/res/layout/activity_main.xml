@@ -9,7 +9,8 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context="com.zybooks.pizzaparty.MainActivity">
+    android:background="@drawable/pizza_background"
+    tools:context="com.zybooks.pizzaparty_v2.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -72,5 +73,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:onClick="calculateClick" />
+        android:onClick="calculateClick"
+        style="@style/CalcButton"/>
 </LinearLayout>
